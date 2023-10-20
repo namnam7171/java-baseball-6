@@ -16,7 +16,6 @@ public class Application {
             System.out.println("숫자 야구 게임을 시작합니다.");
 
             List<Integer> computer = generateComputerNumber();
-            System.out.println("컴퓨터가 생성한 수 : " + computer);
 
             while (true) {
                 System.out.print("숫자를 입력해주세요 : ");
